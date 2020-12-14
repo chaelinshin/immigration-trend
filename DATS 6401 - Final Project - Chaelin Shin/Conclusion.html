@@ -1,0 +1,110 @@
+<!--https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_webpage&stacked=h-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DATS 6401 Final Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #1E6A9A;
+      border-style: none;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    .navbar
+    
+    .navbar-brand {
+        color:  white
+    }
+
+    .navbar-nav>li>a {
+        color:  white
+    }
+
+    .navbar_nav>li>a:hover {
+        color: #D6C2F2
+    }
+    
+    footer {
+      background-color: #1E6A9A;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Immigration Trend</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Intro</a></li>
+        <li><a href="World.html">World Trend</a></li>
+        <li><a href="America.html">U.S.</a></li>
+        <li class="active"><a href="Conclusion.html">Conclusion</a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+  
+    <div class="col-sm-8 text-left"> 
+      <h3>Key Findings</h3>
+      <p>
+        <li>The number of refugees increased greatly in Turkey and moderately in the U.S.</li>
+        <li>There was increased number of apprehensions in the U.S., which may be due to the current administration's return-to-Mexico policy.</li>
+        <li>The numbers of greencard-holders, H1B visas, or F1 visas have not changed much. This may be because the regulations regarding these categories cannot be easily changed due to vested interests of schools and companies.</li>
+      </p>
+      <hr>
+      <h3>Conclusion</h3>
+      <p>As expected, the number of refugees or number of apprehension have changed significantly after President Trump assumed office. However, there were some unexpected results too. For example, the numbers of removals or returns have not increased as much as the number of apprehensions, and the numbers were even sometimes lower than the numbers during the Obama administration. </p>
+      <p>
+      </p>
+
+    </div>
+  
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>DATS 6401 Final Project Fall 2020 (Chaelin Shin)</p>
+</footer>
+
+</body>
+</html>
